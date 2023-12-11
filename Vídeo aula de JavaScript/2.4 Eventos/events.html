@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1 id="videoAula"> VIDEO AULA 14# </h1>
+        <h3 class="subTitulo"> Eventos </h3>
+    </header>
+    <section class="container p-5">
+        <form id="my-Form" class="card row col-sm-6 mx-auto">
+            
+            <div class="mb-3"><!-- E-MAIL -->
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3"><!-- SENHA -->
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check"><!-- SALVAR SENHA -->
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>  
+            </div>
+            <div class="mb-3 text-center"><!-- SALVAR -->
+                <button type="submit" id="submitSave" class="btn btn-primary">SALVAR</button>
+            </div>
+        </form>
+        <div class="items d-grid gap-1 col-sm-6 mx-auto"><!-- BUTÕES -->
+            <button class="item btn btn-primary" type="button">Item 1</button>
+            <button class="item btn btn-primary" type="button">Item 2</button>
+            <button class="item btn btn-primary" type="button">Item 3</button>
+        </div>
+    </section>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+input#toggleCloud:checked ~ #show-cloud .btn:nth-child(2) {
+    top:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(3) {
+    top:-100px;left:100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  /* input#toggleCloud:checked ~ #show-cloud .btn:nth-child(4) {
+    left:150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  } */
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(5) {
+    top :100px;left:100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(6) {
+    top:150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(7) {
+    top:100px;left:-100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(8) {
+    left:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#toggleCloud:checked ~ #show-cloud .btn:nth-child(9) {
+    top:-100px;left:-100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+
+  
+  input#toggle:checked ~ #show-cloud .btn .settingBtn {
+    transform: translateY(-50px);
+    opacity: 0;
+  }

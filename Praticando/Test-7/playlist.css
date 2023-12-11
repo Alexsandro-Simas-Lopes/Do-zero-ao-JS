@@ -1,0 +1,41 @@
+input#togglePlay:checked ~ #show-playlist .btn:nth-child(2) {
+    top:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(3) {
+    top:-100px;left:100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(4) {
+    left:150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(5) {
+    top :100px;left:100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(6) {
+    top:150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(7) {
+    top:100px;left:-100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+  
+  /* input#togglePlay:checked ~ #show-playlist .btn:nth-child(8) {
+    left:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  } */
+  
+  input#togglePlay:checked ~ #show-playlist .btn:nth-child(9) {
+    top:-100px;left:-100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  }
+
+  .menuBtn, .closeBtn {
+    position: absolute;
+    transition: all 0.3s ease;
+  }
+  
+  input#toggle:checked ~ #show-playlist .btn .playBtn {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
